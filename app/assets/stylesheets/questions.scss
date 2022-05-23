@@ -1,24 +1,6 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
- body {
-   background: rgb(0, 174, 255); // Using this variable
- }
-
- .banner {
-  background: red;
-  h1 {
-    font-size: 100px;
-  }
-}
-
-a {
-  color: grey;
-  &:hover {
-    color: black;
-  }
-}
-
 .display {
   text-align:center ;
   margin-block:inherit;
@@ -31,14 +13,29 @@ a {
 
 .display2 {
   color: grey;
+  font-size:medium;
   &:hover {
     color: rgb(103, 192, 95);
   }
 }
 
-.answer {
+#answer {
   font-size:medium ;
   text-align:center ;
   margin-block:inherit;
   margin-top: 100px;
+}
+
+#question1 {
+  font-size:medium ;
+  text-align:center ;
+  margin-block:inherit;
+  margin-top: 100px;
+
+}
+
+.card {
+  border-radius:30px;
+  box-shadow: blueviolet;
+  padding: 2px 16px;
 }
