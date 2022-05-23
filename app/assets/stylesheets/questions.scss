@@ -35,7 +35,11 @@
 }
 
 .card {
+  border: 1px solid black;
+  width:25%;
+  background-color: white;
   border-radius:30px;
   box-shadow: blueviolet;
   padding: 2px 16px;
+  margin-left: 40%;
 }
